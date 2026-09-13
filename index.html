@@ -3,144 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamilton Refrigeração | Assistência Técnica Especializada</title>
-    <!-- Fonte do Google -->
+    <title>Hamilton Refrigeração | Excelência em Refrigeração</title>
+    <!-- Fonte Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <!-- Ícones Font Awesome (Ícone do WhatsApp) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Ícones Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Cabeçalho / Menu -->
-    <header>
-        <div class="container header-container">
-            <div class="logo">
-                <h1>Hamilton <span>Refrigeração</span></h1>
+    <!-- Navegação / Topo -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <div class="brand">
+                <i class="fas fa-snowflake brand-icon"></i>
+                <div class="brand-text">
+                    <span class="brand-name">HAMILTON</span>
+                    <span class="brand-sub">REFRIGERAÇÃO</span>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#marcas">Marcas</a></li>
-                    <li><a href="#contato" class="btn-menu">Fale Conosco</a></li>
-                </ul>
+            <nav class="nav-links">
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#marcas">Marcas</a>
+                <a href="#contato" class="btn-nav">Falar Agora</a>
             </nav>
         </div>
     </header>
 
-    <!-- Banner Principal -->
+    <!-- Banner Principal (Novo Design) -->
     <section id="inicio" class="hero">
-        <div class="container hero-content">
-            <h2>Assistência Técnica Especializada em Refrigeração</h2>
-            <p>Manutenção, conserto e instalação de máquinas de gelo, ar-condicionado e geladeiras com máxima qualidade e garantia.</p>
-            <div class="hero-buttons">
-                <a href="https://wa.me/5544988567319?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." target="_blank" class="btn-whatsapp-hero">
-                    <i class="fab fa-whatsapp"></i> WhatsApp Principal
-                </a>
-                <a href="https://wa.me/5544988563576?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." target="_blank" class="btn-whatsapp-secondary">
-                    <i class="fab fa-whatsapp"></i> WhatsApp Secundário
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Serviços -->
-    <section id="servicos" class="servicos">
-        <div class="container">
-            <h2 class="titulo-secao">Nossos Serviços</h2>
-            <div class="grid-servicos">
-                <div class="card-servico">
-                    <i class="fas fa-cubes"></i>
-                    <h3>Máquinas de Gelo</h3>
-                    <p>Especialistas em instalação, higienização e manutenção preventiva e corretiva de máquinas de gelo comerciais e industriais.</p>
-                </div>
-                <div class="card-servico">
-                    <i class="fas fa-snowflake"></i>
-                    <h3>Ar-Condicionado</h3>
-                    <p>Limpeza, carga de gás, instalação e conserto de sistemas de ar-condicionado residenciais e comerciais.</p>
-                </div>
-                <div class="card-servico">
-                    <i class="fas fa-temperature-low"></i>
-                    <h3>Geladeiras e Refrigeração</h3>
-                    <p>Manutenção completa em geladeiras, freezers e equipamentos de refrigeração em geral.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Seção de Marcas -->
-    <section id="marcas" class="marcas">
-        <div class="container">
-            <h2 class="titulo-secao">Marcas Atendidas</h2>
-            <p class="subtitulo">Trabalhamos com as principais marcas do mercado:</p>
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <span class="badge-hero"><i class="fas fa-check-circle"></i> Assistência Técnica Especializada</span>
+            <h1>Soluções em Refrigeração com Garantia e Rapidez</h1>
+            <p>Especialistas em instalação, conserto e manutenção de máquinas de gelo, ar-condicionado e refrigeração comercial e residencial.</p>
             
-            <div class="marcas-grid">
-                <div class="marcas-categoria">
-                    <h3>Máquinas de Gelo</h3>
-                    <div class="tags-marcas">
-                        <span>Everest</span>
-                        <span>Beimas</span>
-                        <span>Macom</span>
-                        <span>E outras</span>
+            <div class="hero-action-cards">
+                <a href="https://wa.me/5544988567319?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." target="_blank" class="hero-card-btn whatsapp-primary">
+                    <div class="icon-box"><i class="fab fa-whatsapp"></i></div>
+                    <div class="btn-text">
+                        <small>Atendimento Principal</small>
+                        <strong>(44) 98856-7319</strong>
                     </div>
-                </div>
+                </a>
 
-                <div class="marcas-categoria">
-                    <h3>Ar-Condicionado e Refrigeração</h3>
-                    <div class="tags-marcas">
-                        <span>LG</span>
-                        <span>Springer</span>
-                        <span>Brastemp</span>
-                        <span>Electrolux</span>
-                        <span>E outras</span>
+                <a href="https://wa.me/5544988563576?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." target="_blank" class="hero-card-btn whatsapp-secondary">
+                    <div class="icon-box"><i class="fab fa-whatsapp"></i></div>
+                    <div class="btn-text">
+                        <small>Atendimento Secundário</small>
+                        <strong>(44) 98856-3576</strong>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Seção de Contato -->
-    <section id="contato" class="contato">
+    <!-- Seção Serviços -->
+    <section id="servicos" class="section-services">
         <div class="container">
-            <h2 class="titulo-secao">Entre em Contato</h2>
-            <p class="subtitulo">Precisa de suporte ou orçamento? Fale diretamente conosco!</p>
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos suporte completo com os melhores profissionais do mercado</p>
+            </div>
 
-            <div class="grid-contatos">
-                <!-- Cartão Contato 1 -->
-                <div class="card-contato">
-                    <i class="fas fa-phone-alt icon-contato"></i>
-                    <h3>Atendimento Principal</h3>
-                    <p class="numero-tel">(44) 98856-7319</p>
-                    <a href="https://wa.me/5544988567319?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn-whatsapp-contato">
-                        <i class="fab fa-whatsapp"></i> Conversar no WhatsApp
-                    </a>
+            <div class="cards-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>Máquinas de Gelo</h3>
+                    <p>Higienização profunda, manutenção preventiva, corretiva e instalação de equipamentos comerciais e industriais.</p>
                 </div>
 
-                <!-- Cartão Contato 2 -->
-                <div class="card-contato">
-                    <i class="fas fa-phone-alt icon-contato"></i>
-                    <h3>Atendimento Secundário</h3>
-                    <p class="numero-tel">(44) 98856-3576</p>
-                    <a href="https://wa.me/5544988563576?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn-whatsapp-contato btn-alt">
-                        <i class="fab fa-whatsapp"></i> Conversar no WhatsApp
+                <div class="service-card highlight">
+                    <div class="service-icon"><i class="fas fa-temperature-low"></i></div>
+                    <h3>Ar-Condicionado</h3>
+                    <p>Instalação profissional, limpeza completa, recarga de gás e conserto de todas as capacidades.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-box-tissue"></i></div>
+                    <h3>Geladeiras & Freezers</h3>
+                    <p>Manutenção e reparo rápido em geladeiras residenciais, freezers e balcões refrigerados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Marcas -->
+    <section id="marcas" class="section-brands">
+        <div class="container">
+            <div class="section-header">
+                <h2>Marcas Que Atendemos</h2>
+                <p>Trabalhamos com componentes originais e peças das maiores fabricantes</p>
+            </div>
+
+            <div class="brands-wrapper">
+                <div class="brand-box">
+                    <h3><i class="fas fa-ice-cream"></i> Máquinas de Gelo</h3>
+                    <div class="pill-group">
+                        <span class="pill">Everest</span>
+                        <span class="pill">Beimas</span>
+                        <span class="pill">Macom</span>
+                        <span class="pill">+ Outras</span>
+                    </div>
+                </div>
+
+                <div class="brand-box">
+                    <h3 ><i class="fas fa-wind"></i> Ar-Condicionado e Linha Fria</h3>
+                    <div class="pill-group">
+                        <span class="pill">LG</span>
+                        <span class="pill">Springer</span>
+                        <span class="pill">Brastemp</span>
+                        <span class="pill">Electrolux</span>
+                        <span class="pill">+ Outras</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato Direct / WhatsApp -->
+    <section id="contato" class="section-contact">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Precisa de um orçamento urgente?</h2>
+                <p>Escolha um dos nossos canais de atendimento e fale direto pelo WhatsApp:</p>
+
+                <div class="contact-buttons-grid">
+                    <a href="https://wa.me/5544988567319?text=Olá!%20Preciso%20de%20um%20orçamento." target="_blank" class="contact-card">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Falar com o WhatsApp 1</span>
+                        <small>(44) 98856-7319</small>
+                    </a>
+
+                    <a href="https://wa.me/5544988563576?text=Olá!%20Preciso%20de%20um%20orçamento." target="_blank" class="contact-card alt-color">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Falar com o WhatsApp 2</span>
+                        <small>(44) 98856-3576</small>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Botão Flutuante do WhatsApp (No canto da tela) -->
-    <a href="https://wa.me/5544988567319?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20informações." class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5544988567319?text=Olá!%20Vim%20pelo%20site." class="float-whatsapp" target="_blank" title="Chamar no WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
     <!-- Rodapé -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Hamilton Refrigeração. Todos os direitos reservados.</p>
+            <p>&copy; 2026 <strong>Hamilton Refrigeração</strong>. Todos os direitos reservados.</p>
         </div>
     </footer>
 
