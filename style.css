@@ -77,14 +77,11 @@ nav ul li a:hover {
 
 /* Banner Hero */
 .hero {
-
-    background: linear-gradient(rgba(11, 60, 93, 0.85), rgba(11, 60, 93, 0.85)), url() center/cover no-repeat;
+    background: linear-gradient(rgba(11, 60, 93, 0.4), rgba(11, 60, 93, 0.4)), url('bannerzinho.png') center/cover no-repeat;
     color: #fff;
     text-align: center;
     padding: 100px 20px;
-}    color: #fff;
-    text-align: center;
-    padding: 100px 20px;
+}
 }
 
 .hero-content h2 {
